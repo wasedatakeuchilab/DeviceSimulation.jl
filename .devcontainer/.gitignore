@@ -1,0 +1,5 @@
+*
+!.gitignore
+!devcontainer.json
+!compose.yml
+!install.jl
