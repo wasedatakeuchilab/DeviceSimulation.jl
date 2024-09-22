@@ -1,0 +1,34 @@
+{
+  "name": "Debian",
+  "dockerComposeFile": [
+    "compose.yml"
+  ],
+  "service": "main",
+  "workspaceFolder": "/workspaces/main",
+  "overrideCommand": true,
+  "shutdownAction": "stopCompose",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/apt-packages:1": {
+      "packages": "bash-completion"
+    },
+    "ghcr.io/julialang/devcontainer-features/julia:1": {
+      "channel": "release"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bierner.markdown-emoji",
+        "esbenp.prettier-vscode",
+        "github.vscode-github-actions",
+        "julialang.language-julia",
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  },
+  "postCreateCommand": {
+    "Install Julia packages": "julia .devcontainer/install.jl"
+  }
+}
