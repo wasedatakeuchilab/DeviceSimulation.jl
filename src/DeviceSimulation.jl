@@ -1,0 +1,3 @@
+module DeviceSimulation
+
+end  # module
