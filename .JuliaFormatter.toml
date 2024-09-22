@@ -1,0 +1,8 @@
+align_assignment = true
+align_conditional = true
+align_matrix = true
+align_pair_arrow = true
+always_for_in = "nothing"
+always_use_return = false
+remove_extra_newlines = true
+whitespace_in_kwargs = true
