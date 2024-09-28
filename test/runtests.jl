@@ -2,6 +2,7 @@ using Test
 
 mytests = [
     "coordinate_utils.jl"
+    "electron.jl"
     "field.jl"
     "poisson_equation.jl"
 ]
