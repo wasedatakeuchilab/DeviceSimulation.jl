@@ -1,6 +1,6 @@
 module DeviceSimulation
 
-export ħ, Electron, velocity, energy, poisson_equation!, ScalarField, VectorField, gradiend
+export ħ, Electron, velocity, energy, poisson_equation!, ScalarField, VectorField, gradient
 
 include("coordinate_utils.jl")
 include("electron.jl")
